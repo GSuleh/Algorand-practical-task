@@ -1,0 +1,17 @@
+txn Fee
+int 10000
+<=
+arg 0
+len
+int 73
+==
+&&
+arg 0
+sha256
+byte base64 30AT2gOReDBdJmLBO/DgvjC6hIXgACecTpFDcP1bJHU=
+==
+&&
+python3 -c "import hashlib;import base64;print(base64.b64encode(hashlib.sha256(str(YOUR_STRING_HERE).encode('utf-8')).digest()).decode('utf-8'))"txn CloseRemainderTo
+txn Receiver 
+==
+&&
