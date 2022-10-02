@@ -11,7 +11,7 @@ sha256
 byte base64 30AT2gOReDBdJmLBO/DgvjC6hIXgACecTpFDcP1bJHU=
 ==
 &&
-python3 -c "import hashlib;import base64;print(base64.b64encode(hashlib.sha256(str(YOUR_STRING_HERE).encode('utf-8')).digest()).decode('utf-8'))"txn CloseRemainderTo
-txn Receiver 
+txn CloseRemainderTo
+txn Receiver
 ==
 &&
